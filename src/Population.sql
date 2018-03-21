@@ -1,0 +1,1 @@
+-- We add values to the RESTAURANT table.
