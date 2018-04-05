@@ -79,25 +79,248 @@ INSERT INTO MENUITEM (28,'Caesar salad','Food','Starter','Romaine letuce with cr
 
 INSERT INTO MENUITEM (29,'Pork bun','Food','Starter','Bbq pork in a steamed bun',10.00,'8');
 INSERT INTO MENUITEM (30,'Shreaded sichuan chicken','Food','Main','Shreaded chicken with vegetables cooked in sechuan sauce',16.00,'8');
-INSERT INTO MENUITEM (30,'White rice','Food','Side','White sticky rice',6.00,'8');
-INSERT INTO MENUITEM (31,'Spring rolls','Food','Starter','4 vegetable spring rolls',7.00,'8');
+INSERT INTO MENUITEM (31,'White rice','Food','Side','White sticky rice',6.00,'8');
+INSERT INTO MENUITEM (32,'Spring rolls','Food','Starter','4 vegetable spring rolls',7.00,'8');
 
-INSERT INTO MENUITEM (32,'Shawarma plater','Food','Main','Halal chicken, garlic potatoes, seasoned beets, greek salad',300.00,'9');
-INSERT INTO MENUITEM (33,'Shawarma sandwhich','Food','CATEGORY','Your choice of meat, seasoned beets, tabouleh, galric sauce, salsa',300.00,'9');
-INSERT INTO MENUITEM (34,'Falafel','Food','CATEGORY','',300.00,'9');
-INSERT INTO MENUITEM (35,'Greek salad','Food','CATEGORY','',300.00,'9');
+INSERT INTO MENUITEM (33,'Shawarma plater','Food','Main','Halal chicken, garlic potatoes, seasoned beets, greek salad',300.00,'9');
+INSERT INTO MENUITEM (34,'Shawarma sandwhich','Food','CATEGORY','Your choice of meat, seasoned beets, tabouleh, galric sauce, salsa',300.00,'9');
+INSERT INTO MENUITEM (35,'Falafel','Food','CATEGORY','',300.00,'9');
+INSERT INTO MENUITEM (36,'Greek salad','Food','CATEGORY','',300.00,'9');
 
-INSERT INTO MENUITEM (36,'Butter chicken','Food','Main','A fan favorite',22.00,'10');
-INSERT INTO MENUITEM (37,'Egg Mappas','Food','Main','Boiled Eggs in Curried Onion Sauce spiked with crushed Pepper',21.00,'10');
-INSERT INTO MENUITEM (38,'Paneer Spinach Kurma','Food','Main','Cottage Cheese cooked in a rich Spinach Sauce',21.00,'10');
-INSERT INTO MENUITEM (39,'Naddan Vegetable Kurma','Food','Main','Assorted Seasonal Vegetable cooked in Coconut gravy',21.00,'10');
+INSERT INTO MENUITEM (37,'Butter chicken','Food','Main','A fan favorite',22.00,'10');
+INSERT INTO MENUITEM (38,'Egg Mappas','Food','Main','Boiled Eggs in Curried Onion Sauce spiked with crushed Pepper',21.00,'10');
+INSERT INTO MENUITEM (39,'Paneer Spinach Kurma','Food','Main','Cottage Cheese cooked in a rich Spinach Sauce',21.00,'10');
+INSERT INTO MENUITEM (40,'Naddan Vegetable Kurma','Food','Main','Assorted Seasonal Vegetable cooked in Coconut gravy',21.00,'10');
 
-INSERT INTO MENUITEM (40,'CHOCOLATE, PEANUT BUTTER, CARAMEL','Food','Desert','Vanilla soft serve, peanut butter sauce, caramel sauce, chocolate peanut crumble, chocolate sauce',10.00,'11');
-INSERT INTO MENUITEM (41,'KRUSTY THE CONE','Food','Desert','Vanilla soft serve, cotton candy, cotton candy sauce, rainbow sprinkles',10.00,'11');
-INSERT INTO MENUITEM (42,'ROCKY ROAD RAGE','Food','Desert','Chocolate soft serve, marshmallows, chocolate sauce, walnuts, cashew & Oreo cookie crumble',10.00,'11');
-INSERT INTO MENUITEM (43,'BANGIN\' BROWNIE','Food','Deset','Chocolate soft serve, caramel, chocolate sauce, brownie bits, chocolate cookie crumble',10.00,'11');
+INSERT INTO MENUITEM (41,'CHOCOLATE, PEANUT BUTTER, CARAMEL','Food','Desert','Vanilla soft serve, peanut butter sauce, caramel sauce, chocolate peanut crumble, chocolate sauce',10.00,'11');
+INSERT INTO MENUITEM (42,'KRUSTY THE CONE','Food','Desert','Vanilla soft serve, cotton candy, cotton candy sauce, rainbow sprinkles',10.00,'11');
+INSERT INTO MENUITEM (43,'ROCKY ROAD RAGE','Food','Desert','Chocolate soft serve, marshmallows, chocolate sauce, walnuts, cashew & Oreo cookie crumble',10.00,'11');
+INSERT INTO MENUITEM (44,'BANGIN\' BROWNIE','Food','Deset','Chocolate soft serve, caramel, chocolate sauce, brownie bits, chocolate cookie crumble',10.00,'11');
 
-INSERT INTO MENUITEM (44,'Java','Food','Main','Object oriented delight',10.00,'12');
-INSERT INTO MENUITEM (45,'Python','Food','Main','Scripts for days',300.00,'12');
-INSERT INTO MENUITEM (46,'Go','Food','Main','Multithread fanfare',5.00,'12');
-INSERT INTO MENUITEM (47,'C','Food','Main','The grandpa',1.00,'12');
+INSERT INTO MENUITEM (45,'Java','Food','Main','Object oriented delight',10.00,'12');
+INSERT INTO MENUITEM (46,'Python','Food','Main','Scripts for days',300.00,'12');
+INSERT INTO MENUITEM (47,'Go','Food','Main','Multithread fanfare',5.00,'12');
+INSERT INTO MENUITEM (48,'C','Food','Main','The grandpa',1.00,'12');
+
+
+
+INSERT INTO RATING (1,'18-01-2016',1,2,3,3,'Comments','1');
+INSERT INTO RATING (2,'20-01-2016',2,3,4,2,'Comments','1');
+INSERT INTO RATING (3,'21-01-2016',3,4,5,2,'Comments','1');
+INSERT INTO RATING (4,'22-01-2016',4,5,2,1,'Comments','1');
+INSERT INTO RATING (5,'23-01-2016',5,1,1,5,'Comments','1');
+INSERT INTO RATING (6,'24-01-2016',1,4,2,3,'Comments','1');
+INSERT INTO RATING (7,'25-01-2016',2,3,2,2,'Comments','1');
+INSERT INTO RATING (8,'30-01-2016',3,2,5,2,'Comments','1');
+
+INSERT INTO RATING (2,'20-04-2000',5,5,3,5,'Comments','2');
+INSERT INTO RATING (3,'22-04-2000',5,5,3,5,'Comments','2');
+INSERT INTO RATING (4,'24-04-2000',5,3,3,5,'Comments','2');
+INSERT INTO RATING (5,'25-04-2000',5,4,3,5,'Comments','2');
+INSERT INTO RATING (6,'26-04-2000',5,4,4,5,'Comments','2');
+INSERT INTO RATING (7,'28-04-2000',4,4,4,5,'Comments','2');
+INSERT INTO RATING (8,'30-04-2000',5,4,4,5,'Comments','2');
+INSERT INTO RATING (9,'20-04-2001',4,3,4,5,'Comments','2');
+
+INSERT INTO RATING (3,'10-12-2010',3,3,3,3,'Comments','3');
+INSERT INTO RATING (4,'11-12-2010',4,4,4,4,'Comments','3');
+INSERT INTO RATING (5,'14-12-2010',5,2,5,1,'Comments','3');
+INSERT INTO RATING (6,'15-12-2010',4,2,2,4,'Comments','3');
+INSERT INTO RATING (7,'04-01-2011',4,3,3,5,'Comments','3');
+INSERT INTO RATING (8,'05-01-2011',3,4,4,5,'Comments','3');
+INSERT INTO RATING (9,'10-01-2011',1,2,2,3,'Comments','3');
+INSERT INTO RATING (10,'11-01-2011',2,3,1,3,'Comments','3');
+
+INSERT INTO RATING (4,'02-08-1998',5,5,5,5,'Comments','4');
+INSERT INTO RATING (5,'04-08-1998',2,2,2,2,'Comments','4');
+INSERT INTO RATING (6,'05-08-1998',3,4,3,4,'Comments','4');
+INSERT INTO RATING (7,'06-08-1998',3,3,4,4,'Comments','4');
+INSERT INTO RATING (8,'09-08-1998',2,4,4,4,'Comments','4');
+INSERT INTO RATING (9,'10-08-1998',3,3,4,5,'Comments','4');
+INSERT INTO RATING (10,'20-08-1998',3,5,4,3,'Comments','4');
+INSERT INTO RATING (11,'25-08-1998',2,3,3,3,'Comments','4');
+
+INSERT INTO RATING (5,'30-02-2002',5,5,5,5,'Comments','5');
+INSERT INTO RATING (6,'01-03-2002',4,5,5,4,'Comments','5');
+INSERT INTO RATING (7,'10-03-2002',5,4,5,4,'Comments','5');
+INSERT INTO RATING (8,'16-03-2002',4,4,5,4,'Comments','5');
+INSERT INTO RATING (9,'18-03-2002',4,5,4,5,'Comments','5');
+INSERT INTO RATING (10,'20-03-2002',3,3,3,4,'Comments','5');
+INSERT INTO RATING (11,'30-03-2002',5,5,4,4,'Comments','5');
+INSERT INTO RATING (12,'31-03-2002',4,4,4,3,'Comments','5');
+
+INSERT INTO RATING (6,'12-09-1996',3,3,3,3,'Comments','6');
+INSERT INTO RATING (7,'14-09-1996',4,4,4,4,'Comments','6');
+INSERT INTO RATING (8,'15-09-1996',5,5,5,5,'Comments','6');
+INSERT INTO RATING (9,'16-09-1996',5,4,5,4,'Comments','6');
+INSERT INTO RATING (10,'19-09-1996',4,5,4,5,'Comments','6');
+INSERT INTO RATING (11,'20-09-1996',3,4,4,3,'Comments','6');
+INSERT INTO RATING (12,'21-09-1996',4,3,3,4,'Comments','6');
+INSERT INTO RATING (13,'30-09-1996',4,4,3,3,'Comments','6');
+
+INSERT INTO RATING (7,'03-05-2018',3,4,4,1,'Comments','7');
+INSERT INTO RATING (8,'05-05-2018',1,2,2,1,'Comments','7');
+INSERT INTO RATING (9,'07-05-2018',2,1,1,2,'Comments','7');
+INSERT INTO RATING (10,'08-05-2018',2,2,2,2,'Comments','7');
+INSERT INTO RATING (11,'10-05-2018',1,2,2,1,'Comments','7');
+INSERT INTO RATING (12,'14-05-2018',3,3,2,2,'Comments','7');
+INSERT INTO RATING (13,'16-05-2018',3,3,2,2,'Comments','7');
+INSERT INTO RATING (14,'22-05-2018',3,3,4,4,'Comments','7');
+
+INSERT INTO RATING (8,'01-01-2017',4,4,4,4,'Comments','8');
+INSERT INTO RATING (9,'02-01-2017',5,5,5,5,'Comments','8');
+INSERT INTO RATING (10,'04-01-2017',4,4,4,4,'Comments','8');
+INSERT INTO RATING (11,'07-01-2017',4,4,5,5,'Comments','8');
+INSERT INTO RATING (12,'09-01-2017',5,5,4,4,'Comments','8');
+INSERT INTO RATING (13,'11-01-2017',4,4,3,3,'Comments','8');
+INSERT INTO RATING (14,'15-01-2017',3,3,5,5,'Comments','8');
+INSERT INTO RATING (15,'30-01-2017',5,3,4,5,'Comments','8');
+
+INSERT INTO RATING (9,'16-01-2018',4,3,2,1,'Comments','9');
+INSERT INTO RATING (10,'17-01-2018',5,4,3,1,'Comments','9');
+INSERT INTO RATING (11,'18-01-2018',1,3,4,5,'Comments','9');
+INSERT INTO RATING (12,'20-01-2018',5,4,4,1,'Comments','9');
+INSERT INTO RATING (13,'24-01-2018',1,4,5,1,'Comments','9');
+INSERT INTO RATING (14,'27-01-2018',3,3,2,5,'Comments','9');
+INSERT INTO RATING (15,'29-01-2018',1,2,3,5,'Comments','9');
+INSERT INTO RATING (1,'30-01-2018',2,1,2,1,'Comments','9');
+
+INSERT INTO RATING (10,'11-11-2012',4,4,4,4,'Comments','10');
+INSERT INTO RATING (11,'12-11-2012',1,1,3,3,'Comments','10');
+INSERT INTO RATING (12,'16-11-2012',1,4,4,1,'Comments','10');
+INSERT INTO RATING (13,'18-11-2012',1,2,3,1,'Comments','10');
+INSERT INTO RATING (14,'19-11-2012',5,3,5,1,'Comments','10');
+INSERT INTO RATING (15,'20-11-2012',5,2,2,2,'Comments','10');
+INSERT INTO RATING (1,'22-11-2012',3,5,4,4,'Comments','10');
+INSERT INTO RATING (2,'30-11-2012',3,4,5,5,'Comments','10');
+
+INSERT INTO RATING (11,'22-06-2014',3,2,2,1,'Comments','11');
+INSERT INTO RATING (12,'23-06-2014',2,2,3,1,'Comments','11');
+INSERT INTO RATING (13,'24-06-2014',1,2,2,3,'Comments','11');
+INSERT INTO RATING (14,'25-06-2014',2,2,2,2,'Comments','11');
+INSERT INTO RATING (15,'26-06-2014',4,3,3,3,'Comments','11');
+INSERT INTO RATING (1,'27-06-2014',1,1,2,2,'Comments','11');
+INSERT INTO RATING (2,'28-06-2014',1,1,3,1,'Comments','11');
+INSERT INTO RATING (3,'29-06-2014',1,1,1,1,'Comments','11');
+
+INSERT INTO RATING (12,'24-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (13,'25-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (14,'26-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (15,'27-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (1,'28-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (2,'29-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (3,'30-03-2001',5,5,5,5,'Comments','12');
+INSERT INTO RATING (4,'01-04-2001',5,5,5,5,'Comments','12');
+
+
+
+INSERT INTO RATINGITEM (1,'18-01-2016',1,1.0,'Food comments');
+INSERT INTO RATINGITEM (1,'30-01-2018',34,1.0,'Food comments');
+INSERT INTO RATINGITEM (1,'22-11-2012',39,1.0,'Food comments');
+INSERT INTO RATINGITEM (1,'27-06-2014',44,1.0,'Food comments');
+INSERT INTO RATINGITEM (1,'28-03-2001',47,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (2,'20-01-2016',1,1.0,'Food comments');
+INSERT INTO RATINGITEM (2,'20-04-2000',6,1.0,'Food comments');
+INSERT INTO RATINGITEM (2,'30-11-2012',38,1.0,'Food comments');
+INSERT INTO RATINGITEM (2,'28-06-2014',42,1.0,'Food comments');
+INSERT INTO RATINGITEM (2,'29-03-2001',48,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (3,'21-01-2016',2,1.0,'Food comments');
+INSERT INTO RATINGITEM (3,'22-04-2000',5,1.0,'Food comments');
+INSERT INTO RATINGITEM (3,'10-12-2010',9,1.0,'Food comments');
+INSERT INTO RATINGITEM (3,'29-06-2014',41,1.0,'Food comments');
+INSERT INTO RATINGITEM (3,'30-03-2001',45,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (4,'22-01-2016',3,1.0,'Food comments');
+INSERT INTO RATINGITEM (4,'24-04-2000',7,1.0,'Food comments');
+INSERT INTO RATINGITEM (4,'11-12-2010',10,1.0,'Food comments');
+INSERT INTO RATINGITEM (4,'02-08-1998',13,1.0,'Food comments');
+INSERT INTO RATINGITEM (4,'01-04-2001',46,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (5,'23-01-2016',4,1.0,'Food comments');
+INSERT INTO RATINGITEM (5,'25-04-2000',8,1.0,'Food comments');
+INSERT INTO RATINGITEM (5,'14-12-2010',11,1.0,'Food comments');
+INSERT INTO RATINGITEM (5,'04-08-1998',14,1.0,'Food comments');
+INSERT INTO RATINGITEM (5,'30-02-2002',17,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (6,'24-01-2016',2,1.0,'Food comments');
+INSERT INTO RATINGITEM (6,'26-04-2000',5,1.0,'Food comments');
+INSERT INTO RATINGITEM (6,'15-12-2010',12,1.0,'Food comments');
+INSERT INTO RATINGITEM (6,'05-08-1998',15,1.0,'Food comments');
+INSERT INTO RATINGITEM (6,'01-03-2002',18,1.0,'Food comments');
+INSERT INTO RATINGITEM (6,'12-09-1996',21,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (7,'25-01-2016',3,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'28-04-2000',6,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'04-01-2011',9,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'06-08-1998',16,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'10-03-2002',19,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'14-09-1996',22,1.0,'Food comments');
+INSERT INTO RATINGITEM (7,'03-05-2018',25,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (8,'30-01-2016',4,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'30-04-2000',7,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'05-01-2011',10,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'09-08-1998',13,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'16-03-2002',20,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'15-09-1996',23,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'05-05-2018',26,1.0,'Food comments');
+INSERT INTO RATINGITEM (8,'01-01-2017',29,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (9,'20-04-2001',8,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'10-01-2011',11,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'10-08-1998',14,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'18-03-2002',17,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'16-09-1996',24,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'07-05-2018',27,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'02-01-2017',30,1.0,'Food comments');
+INSERT INTO RATINGITEM (9,'16-01-2018',33,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (10,'11-01-2011',12,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'20-08-1998',15,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'20-03-2002',18,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'19-09-1996',21,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'08-05-2018',28,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'04-01-2017',31,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'17-01-2018',34,1.0,'Food comments');
+INSERT INTO RATINGITEM (10,'11-11-2012',37,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (11,'25-08-1998',16,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'30-03-2002',19,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'20-09-1996',22,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'10-05-2018',25,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'07-01-2017',32,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'18-01-2018',35,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'12-11-2012',38,1.0,'Food comments');
+INSERT INTO RATINGITEM (11,'22-06-2014',41,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (12,'31-03-2002',20,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'21-09-1996',23,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'14-05-2018',26,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'09-01-2017',29,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'20-01-2018',36,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'16-11-2012',39,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'23-06-2014',42,1.0,'Food comments');
+INSERT INTO RATINGITEM (12,'24-03-2001',45,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (13,'30-09-1996',24,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'16-05-2018',27,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'11-01-2017',30,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'24-01-2018',33,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'18-11-2012',40,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'24-06-2014',43,1.0,'Food comments');
+INSERT INTO RATINGITEM (13,'25-03-2001',46,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (14,'22-05-2018',28,1.0,'Food comments');
+INSERT INTO RATINGITEM (14,'15-01-2017',31,1.0,'Food comments');
+INSERT INTO RATINGITEM (14,'27-01-2018',34,1.0,'Food comments');
+INSERT INTO RATINGITEM (14,'19-11-2012',37,1.0,'Food comments');
+INSERT INTO RATINGITEM (14,'25-06-2014',44,1.0,'Food comments');
+INSERT INTO RATINGITEM (14,'26-03-2001',48,1.0,'Food comments');
+
+INSERT INTO RATINGITEM (15,'30-01-2017',32,1.0,'Food comments');
+INSERT INTO RATINGITEM (15,'29-01-2018',35,1.0,'Food comments');
+INSERT INTO RATINGITEM (15,'20-11-2012',38,1.0,'Food comments');
+INSERT INTO RATINGITEM (15,'26-06-2014',41,1.0,'Food comments');
+INSERT INTO RATINGITEM (15,'27-03-2001',47,1.0,'Food comments');
