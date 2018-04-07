@@ -1,4 +1,8 @@
 -- We add values to the RESTAURANT VALUES table.
+
+-- Note: we must change the datestyle to DMY
+ALTER DATABASE database_name SET datestyle TO "ISO, DMY";
+
 INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary',4);
 INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog',4);
 INSERT INTO RATER VALUES ('3','food52@gmail.com','Food_52',DEFAULT,'Blog',3);
@@ -14,20 +18,20 @@ INSERT INTO RATER VALUES ('12','L.Marin@gmail.com','Lise_Marin',DEFAULT,'Blog',2
 INSERT INTO RATER VALUES ('13','D.Henry@gmail.com','Danielle_Henry',DEFAULT,'Food Critic',5);
 INSERT INTO RATER VALUES ('14','ottawacooks@gmail.com','ottawa_cooks',DEFAULT,'Online',5);
 INSERT INTO RATER VALUES ('15','feroz@gmail.com','Feroz',DEFAULT,'Blog',5);
-
+INSERT INTO RATER VALUES ('16','john@uottawa.ca','John',DEFAULT,'Blog',2);
 
 INSERT INTO RESTAURANT VALUES ('1','Burgers and Fries Forever','Fast Food','https://burgersnfriesforever.com');
 INSERT INTO RESTAURANT VALUES ('2','Mellos','Breakfast','https://mellos.com');
 INSERT INTO RESTAURANT VALUES ('3','Sushi Hello','Asian','https://sushiHello.com');
 INSERT INTO RESTAURANT VALUES ('4','Freddies Bistro','Diner','https://Freddies.com');
 INSERT INTO RESTAURANT VALUES ('5','La Mangue Amere','African','https://lamangueamere.com');
-INSERT INTO RESTAURANT VALUES ('6','Mario\'s Pizza','Pizza','https://MarriosPizza.com');
-INSERT INTO RESTAURANT VALUES ('7','Luigi\'s Linguini','Italian','https://LuigisLinguini.com');
+INSERT INTO RESTAURANT VALUES ('6','Mario''s Pizza','Pizza','https://MarriosPizza.com');
+INSERT INTO RESTAURANT VALUES ('7','Luigi''s Linguini','Italian','https://LuigisLinguini.com');
 INSERT INTO RESTAURANT VALUES ('8','Yangtze','Chinese','https://yangtze.com');
 INSERT INTO RESTAURANT VALUES ('9','Shawarma Prince','Fast Food','https://shawarmaprince.com');
 INSERT INTO RESTAURANT VALUES ('10','Coconut pond','Indian','https://coconutpond.com');
 INSERT INTO RESTAURANT VALUES ('11','Sweet God','Ice Cream','https://sweetgod.com');
-INSERT INTO RESTAURANT VALUES ('12','Hello World','Fast Food','https://helloworldRESTAURANT VALUES.com');
+INSERT INTO RESTAURANT VALUES ('12','Hello World','Fast Food','https://helloworldrestaurant.com');
 
 INSERT INTO LOCATION VALUES ('1','18-01-2016','Ziad El Khachab','(613) 241-3456.','278 Dalhousie Street','8:00','22:00','1');
 INSERT INTO LOCATION VALUES ('2','20-04-2000','John Malone','(613) 890-2234.','900 York Street','8:00','17:00','2');
@@ -42,15 +46,19 @@ INSERT INTO LOCATION VALUES ('10','11-11-2012','Thomas Thottungal','(613) 334-78
 INSERT INTO LOCATION VALUES ('11','22-06-2014','Bob Blunder','(613) 223-3236.','900 King Edward Street','11:00','22:00','11');
 INSERT INTO LOCATION VALUES ('12','24-03-2001','Ernie Java','(613) 233-2345.','200 Dalhousie Street','8:00','22:00','12');
 
+
 INSERT INTO MENUITEM VALUES (1,'Cheeseburger','Food','Main','cheese, letuce, tomato, canadian beef pattie',10.00,'1');
-INSERT INTO MENUITEM VALUES (2,'The works','Food','Main','Caramelised onions, tomato, letuce, sauteed mushrooms, avocado, bacon, canadian beef pattie',12.00,'1');
+INSERT INTO MENUITEM VALUES (2,'The works','Food','Main',
+														 'Caramelised onions, tomato, letuce, sauteed mushrooms, avocado, bacon, canadian beef pattie',12.00,'1');
 INSERT INTO MENUITEM VALUES (3,'The Frenchman','Food','Main','Pear, brie, caramelised onions, canadian beef pattie',15.00,'1');
-INSERT INTO MENUITEM VALUES (4,'Fan Favorite','Food','Main','tomato, bacon, caramelised onions, sauteed mushrooms, bbq sauce, canadian beef pattie',15.00,'1');
+INSERT INTO MENUITEM VALUES (4,'Fan Favorite','Food','Main',
+														 'tomato, bacon, caramelised onions, sauteed mushrooms, bbq sauce, canadian beef pattie',15.00,'1');
 
 INSERT INTO MENUITEM VALUES (5,'Blueberry waffles','Food','Main','2 large blueberry waffles',10.00,'2');
 INSERT INTO MENUITEM VALUES (6,'The Classic','Food','Main','2 eggs, bacon, sausage, baked beans, toasts',9.50,'2');
 INSERT INTO MENUITEM VALUES (7,'Hungry Man','Food','Main','4 eggs, bacon, sausages, baked beans, one waffle, toasts',14.00,'2');
-INSERT INTO MENUITEM VALUES (8,'Vege Breaky','Food','Main','lentil oatmeal cooked in vegetable broth served with avocado, tomatoes, hummus, and salsa',11.00,'2');
+INSERT INTO MENUITEM VALUES (8,'Vege Breaky','Food','Main',
+														 'lentil oatmeal cooked in vegetable broth served with avocado, tomatoes, hummus, and salsa',11.00,'2');
 
 INSERT INTO MENUITEM VALUES (9,'California roll','Food','Main','Crab sitck, avocado, cucumber',7.00,'3');
 INSERT INTO MENUITEM VALUES (10,'Dynamite roll','Food','Main','Tempura shrimp, avocado',7.00,'3');
@@ -64,7 +72,8 @@ INSERT INTO MENUITEM VALUES (16,'Cheese burger','Food','Main','tomato, letuce, c
 
 INSERT INTO MENUITEM VALUES (17,'South african stew','Food','Main','Assortment of vegetables cooked in a peanut sauce',15.00,'5');
 INSERT INTO MENUITEM VALUES (18,'Jerk seasoned fish with steamed vegetables','Food','Main','Fish of the day seasoned with jerk rub',19.00,'5');
-INSERT INTO MENUITEM VALUES (19,'Fish of the day','Food','Main','Grilled fish of the say season with a bit of lemon and served with a green salad',20.00,'5');
+INSERT INTO MENUITEM VALUES (19,'Fish of the day','Food','Main',
+														 'Grilled fish of the say season with a bit of lemon and served with a green salad',20.00,'5');
 INSERT INTO MENUITEM VALUES (20,'Soup of the day','Food','Starter','',10.00,'5');
 
 INSERT INTO MENUITEM VALUES (21,'Cheese pizza','Food','Main','Mozzarella, tomato sauce',100.00,'6');
@@ -92,17 +101,19 @@ INSERT INTO MENUITEM VALUES (38,'Egg Mappas','Food','Main','Boiled Eggs in Curri
 INSERT INTO MENUITEM VALUES (39,'Paneer Spinach Kurma','Food','Main','Cottage Cheese cooked in a rich Spinach Sauce',21.00,'10');
 INSERT INTO MENUITEM VALUES (40,'Naddan Vegetable Kurma','Food','Main','Assorted Seasonal Vegetable cooked in Coconut gravy',21.00,'10');
 
-INSERT INTO MENUITEM VALUES (41,'CHOCOLATE, PEANUT BUTTER, CARAMEL','Food','Desert','Vanilla soft serve, peanut butter sauce, caramel sauce, chocolate peanut crumble, chocolate sauce',10.00,'11');
-INSERT INTO MENUITEM VALUES (42,'KRUSTY THE CONE','Food','Desert','Vanilla soft serve, cotton candy, cotton candy sauce, rainbow sprinkles',10.00,'11');
-INSERT INTO MENUITEM VALUES (43,'ROCKY ROAD RAGE','Food','Desert','Chocolate soft serve, marshmallows, chocolate sauce, walnuts, cashew & Oreo cookie crumble',10.00,'11');
-INSERT INTO MENUITEM VALUES (44,'BANGIN\' BROWNIE','Food','Deset','Chocolate soft serve, caramel, chocolate sauce, brownie bits, chocolate cookie crumble',10.00,'11');
+INSERT INTO MENUITEM VALUES (41,'CHOCOLATE, PEANUT BUTTER, CARAMEL','Food','Desert',
+														 'Vanilla soft serve, peanut butter sauce, caramel sauce, chocolate peanut crumble, chocolate sauce',10.00,'11');
+INSERT INTO MENUITEM VALUES (42,'KRUSTY THE CONE','Food','Desert',
+														 'Vanilla soft serve, cotton candy, cotton candy sauce, rainbow sprinkles',10.00,'11');
+INSERT INTO MENUITEM VALUES (43,'ROCKY ROAD RAGE','Food','Desert',
+														 'Chocolate soft serve, marshmallows, chocolate sauce, walnuts, cashew & Oreo cookie crumble',10.00,'11');
+INSERT INTO MENUITEM VALUES (44,'BANGIN'' BROWNIE','Food','Deset',
+														 'Chocolate soft serve, caramel, chocolate sauce, brownie bits, chocolate cookie crumble',10.00,'11');
 
 INSERT INTO MENUITEM VALUES (45,'Java','Food','Main','Object oriented delight',10.00,'12');
 INSERT INTO MENUITEM VALUES (46,'Python','Food','Main','Scripts for days',300.00,'12');
 INSERT INTO MENUITEM VALUES (47,'Go','Food','Main','Multithread fanfare',5.00,'12');
 INSERT INTO MENUITEM VALUES (48,'C','Food','Main','The grandpa',1.00,'12');
-
-
 
 INSERT INTO RATING VALUES (1,'18-01-2016',1,2,3,3,'Comments','1');
 INSERT INTO RATING VALUES (2,'20-01-2016',2,3,4,2,'Comments','1');
@@ -112,6 +123,8 @@ INSERT INTO RATING VALUES (5,'23-01-2016',5,1,1,5,'Comments','1');
 INSERT INTO RATING VALUES (6,'24-01-2016',1,4,2,3,'Comments','1');
 INSERT INTO RATING VALUES (7,'25-01-2016',2,3,2,2,'Comments','1');
 INSERT INTO RATING VALUES (8,'30-01-2016',3,2,5,2,'Comments','1');
+INSERT INTO RATING VALUES (1,'19-01-2016',5,4,1,1,'Comments','1');
+INSERT INTO RATING VALUES (1,'19-02-2016',2,2,4,4,'Comments','1');
 
 INSERT INTO RATING VALUES (2,'20-04-2000',5,5,3,5,'Comments','2');
 INSERT INTO RATING VALUES (3,'22-04-2000',5,5,3,5,'Comments','2');
@@ -121,6 +134,8 @@ INSERT INTO RATING VALUES (6,'26-04-2000',5,4,4,5,'Comments','2');
 INSERT INTO RATING VALUES (7,'28-04-2000',4,4,4,5,'Comments','2');
 INSERT INTO RATING VALUES (8,'30-04-2000',5,4,4,5,'Comments','2');
 INSERT INTO RATING VALUES (9,'20-04-2001',4,3,4,5,'Comments','2');
+INSERT INTO RATING VALUES (16,'21-04-2001',4,3,4,5,'Comments','2');
+INSERT INTO RATING VALUES (16,'22-04-2001',1,2,4,5,'Comments','2');
 
 INSERT INTO RATING VALUES (3,'10-12-2010',3,3,3,3,'Comments','3');
 INSERT INTO RATING VALUES (4,'11-12-2010',4,4,4,4,'Comments','3');
@@ -212,13 +227,13 @@ INSERT INTO RATING VALUES (2,'29-03-2001',5,5,5,5,'Comments','12');
 INSERT INTO RATING VALUES (3,'30-03-2001',5,5,5,5,'Comments','12');
 INSERT INTO RATING VALUES (4,'01-04-2001',5,5,5,5,'Comments','12');
 
-
-
 INSERT INTO RATINGITEM VALUES (1,'18-01-2016',1,1.0,'Food comments');
 INSERT INTO RATINGITEM VALUES (1,'30-01-2018',34,1.0,'Food comments');
 INSERT INTO RATINGITEM VALUES (1,'22-11-2012',39,1.0,'Food comments');
 INSERT INTO RATINGITEM VALUES (1,'27-06-2014',44,1.0,'Food comments');
 INSERT INTO RATINGITEM VALUES (1,'28-03-2001',47,1.0,'Food comments');
+INSERT INTO RATINGITEM VALUES (1,'19-02-2016',2,1.0,'Food comments');
+INSERT INTO RATINGITEM VALUES (1,'19-01-2016',3,1.0,'Food comments');
 
 INSERT INTO RATINGITEM VALUES (2,'20-01-2016',1,1.0,'Food comments');
 INSERT INTO RATINGITEM VALUES (2,'20-04-2000',6,1.0,'Food comments');
