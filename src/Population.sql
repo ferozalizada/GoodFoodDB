@@ -1,7 +1,7 @@
 -- We add values to the RESTAURANT VALUES table.
 
 -- Note: we must change the datestyle to DMY
-ALTER DATABASE database_name SET datestyle TO "ISO, DMY";
+SET datestyle TO "ISO, DMY";
 
 INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary',4);
 INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog',4);
