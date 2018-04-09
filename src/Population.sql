@@ -3,22 +3,22 @@
 -- Note: we must change the datestyle to DMY
 SET datestyle TO "ISO, DMY";
 
-INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary',4);
-INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog',4);
-INSERT INTO RATER VALUES ('3','food52@gmail.com','Food_52',DEFAULT,'Blog',3);
-INSERT INTO RATER VALUES ('4','fedUp@gmail.com','Fed_Up',DEFAULT,'Documentary',4);
-INSERT INTO RATER VALUES ('5','PinchOfYum@gmail.com','Pinch_of_Yum',DEFAULT,'Blog',3);
-INSERT INTO RATER VALUES ('6','A.Mahn@gmail.com','Ali_Mahn',DEFAULT,'Blog',2);
-INSERT INTO RATER VALUES ('7','pnile029@uottawa.ca','Philippe_Niles',DEFAULT,'Food Critic',5);
-INSERT INTO RATER VALUES ('8','M.desmond@gmail.com','Michael_Desmond',DEFAULT,'Online',3);
-INSERT INTO RATER VALUES ('9','O.Jennings@gmail.com','Olivia_Jennings',DEFAULT,'Food Critic',5);
-INSERT INTO RATER VALUES ('10','I.Yoland@gmail.com','Ilanda_Yoland',DEFAULT,'Blog',1);
-INSERT INTO RATER VALUES ('11','M.Kennedy@gmail.com','Maxim_Kennedy',DEFAULT,'Online',3);
-INSERT INTO RATER VALUES ('12','L.Marin@gmail.com','Lise_Marin',DEFAULT,'Blog',2);
-INSERT INTO RATER VALUES ('13','D.Henry@gmail.com','Danielle_Henry',DEFAULT,'Food Critic',5);
-INSERT INTO RATER VALUES ('14','ottawacooks@gmail.com','ottawa_cooks',DEFAULT,'Online',5);
-INSERT INTO RATER VALUES ('15','feroz@gmail.com','Feroz',DEFAULT,'Blog',5);
-INSERT INTO RATER VALUES ('16','john@uottawa.ca','John',DEFAULT,'Blog',2);
+INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary',4,'123123');
+INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog',4,'234234');
+INSERT INTO RATER VALUES ('3','food52@gmail.com','Food_52',DEFAULT,'Blog',3,'345345');
+INSERT INTO RATER VALUES ('4','fedUp@gmail.com','Fed_Up',DEFAULT,'Documentary',4,'456456');
+INSERT INTO RATER VALUES ('5','PinchOfYum@gmail.com','Pinch_of_Yum',DEFAULT,'Blog',3,'567567');
+INSERT INTO RATER VALUES ('6','A.Mahn@gmail.com','Ali_Mahn',DEFAULT,'Blog',2,'678678');
+INSERT INTO RATER VALUES ('7','pnile029@uottawa.ca','Philippe_Niles',DEFAULT,'Food Critic',5,'789789');
+INSERT INTO RATER VALUES ('8','M.desmond@gmail.com','Michael_Desmond',DEFAULT,'Online',3,'890890');
+INSERT INTO RATER VALUES ('9','O.Jennings@gmail.com','Olivia_Jennings',DEFAULT,'Food Critic',5,'135135');
+INSERT INTO RATER VALUES ('10','I.Yoland@gmail.com','Ilanda_Yoland',DEFAULT,'Blog',1,'246246');
+INSERT INTO RATER VALUES ('11','M.Kennedy@gmail.com','Maxim_Kennedy',DEFAULT,'Online',3,'357357');
+INSERT INTO RATER VALUES ('12','L.Marin@gmail.com','Lise_Marin',DEFAULT,'Blog',2,'468468');
+INSERT INTO RATER VALUES ('13','D.Henry@gmail.com','Danielle_Henry',DEFAULT,'Food Critic',5,'579579');
+INSERT INTO RATER VALUES ('14','ottawacooks@gmail.com','ottawa_cooks',DEFAULT,'Online',5,'680680');
+INSERT INTO RATER VALUES ('15','feroz@gmail.com','Feroz',DEFAULT,'Blog',5,'124124');
+INSERT INTO RATER VALUES ('16','john@uottawa.ca','John',DEFAULT,'Blog',2,'235235');
 
 INSERT INTO RESTAURANT VALUES ('1','Burgers and Fries Forever','Fast Food','https://burgersnfriesforever.com');
 INSERT INTO RESTAURANT VALUES ('2','Mellos','Breakfast','https://mellos.com');
