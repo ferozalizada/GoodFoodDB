@@ -1,12 +1,12 @@
 -- We add values to the RESTAURANT VALUES table.
 
 -- Note: we must change the datestyle to DMY
-SET datestyle TO "ISO, DMY";
+SET database ferozalizada datestyle = DMY;
 
-INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary','123123',4);
-INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog','234234',4);
-INSERT INTO RATER VALUES ('3','food52@gmail.com','Food_52',DEFAULT,'Blog','345345',3);
-INSERT INTO RATER VALUES ('4','fedUp@gmail.com','Fed_Up',DEFAULT,'Documentary','456456',4);
+INSERT INTO RATER VALUES ('1','superSM@gmail.com','SuperSizeMe',DEFAULT,'Documentary',		 	'123123',4);
+INSERT INTO RATER VALUES ('2','tHistoryoFood@gmail.com','The_History_of_Food',DEFAULT,'Blog',	'234234',4);
+INSERT INTO RATER VALUES ('3','food52@gmail.com','Food_52',DEFAULT,'Blog',						'345345',3);
+INSERT INTO RATER VALUES ('4','fedUp@gmail.com','Fed_Up',DEFAULT,'Documentary',					'456456',4);
 INSERT INTO RATER VALUES ('5','PinchOfYum@gmail.com','Pinch_of_Yum',DEFAULT,'Blog','567567',3);
 INSERT INTO RATER VALUES ('6','A.Mahn@gmail.com','Ali_Mahn',DEFAULT,'Blog','678678',2);
 INSERT INTO RATER VALUES ('7','pnile029@uottawa.ca','Philippe_Niles',DEFAULT,'Food Critic','789789',5);
@@ -20,18 +20,18 @@ INSERT INTO RATER VALUES ('14','ottawacooks@gmail.com','ottawa_cooks',DEFAULT,'O
 INSERT INTO RATER VALUES ('15','feroz@gmail.com','Feroz',DEFAULT,'Blog','124124',5);
 INSERT INTO RATER VALUES ('16','john@uottawa.ca','John',DEFAULT,'Blog','235235',2);
 
-INSERT INTO RESTAURANT VALUES ('1','Burgers and Fries Forever','Fast Food','https://burgersnfriesforever.com');
-INSERT INTO RESTAURANT VALUES ('2','Mellos','Breakfast','https://mellos.com');
-INSERT INTO RESTAURANT VALUES ('3','Sushi Hello','Asian','https://sushiHello.com');
-INSERT INTO RESTAURANT VALUES ('4','Freddies Bistro','Diner','https://Freddies.com');
-INSERT INTO RESTAURANT VALUES ('5','La Mangue Amere','African','https://lamangueamere.com');
-INSERT INTO RESTAURANT VALUES ('6','Mario''s Pizza','Pizza','https://MarriosPizza.com');
-INSERT INTO RESTAURANT VALUES ('7','Luigi''s Linguini','Italian','https://LuigisLinguini.com');
-INSERT INTO RESTAURANT VALUES ('8','Yangtze','Chinese','https://yangtze.com');
-INSERT INTO RESTAURANT VALUES ('9','Shawarma Prince','Fast Food','https://shawarmaprince.com');
-INSERT INTO RESTAURANT VALUES ('10','Coconut pond','Indian','https://coconutpond.com');
-INSERT INTO RESTAURANT VALUES ('11','Sweet God','Ice Cream','https://sweetgod.com');
-INSERT INTO RESTAURANT VALUES ('12','Hello World','Fast Food','https://helloworldrestaurant.com');
+INSERT INTO RESTAURANT VALUES ('1','Burgers and Fries Forever','Fast Food','https://burgersnfriesforever.com','https://www.wien.info/media/images/41993-das-loft-sofitel-19to1.jpeg');
+INSERT INTO RESTAURANT VALUES ('2','Mellos','Breakfast','https://mellos.com','https://media-cdn.tripadvisor.com/media/photo-s/0d/5d/4a/f3/salle-de-restaurant.jpg');
+INSERT INTO RESTAURANT VALUES ('3','Sushi Hello','Asian','https://sushiHello.com','http://www.shaughnessyrestaurant.com/wp-content/uploads/2011/04/i-tJcrBgc-L.jpg');
+INSERT INTO RESTAURANT VALUES ('4','Freddies Bistro','Diner','https://Freddies.com','http://www.glowbalgroup.com/img/cst-img/pdr2/img1.jpg');
+INSERT INTO RESTAURANT VALUES ('5','La Mangue Amere','African','https://lamangueamere.com','https://cdn.cnn.com/cnnnext/dam/assets/171023153742-underwater-restaurant-5.jpg');
+INSERT INTO RESTAURANT VALUES ('6','Mario''s Pizza','Pizza','https://MarriosPizza.com','http://www.maximesrestaurant.ca/wp-content/uploads/2016/02/Maxime4974.jpg');
+INSERT INTO RESTAURANT VALUES ('7','Luigi''s Linguini','Italian','https://LuigisLinguini.com','https://restaurants.accorhotels.com/media/images/istock-479977238-abe-hp-c7f8_1400x420.jpg');
+INSERT INTO RESTAURANT VALUES ('8','Yangtze','Chinese','https://yangtze.com','https://media2.fdncms.com/chicago/imager/u/original/27089989/best_fancy_restaurant-girl_and_the_goat.jpg');
+INSERT INTO RESTAURANT VALUES ('9','Shawarma Prince','Fast Food','https://shawarmaprince.com','https://design-milk.com/images/2016/08/Shade-Burger-YOD-studio-1.jpg');
+INSERT INTO RESTAURANT VALUES ('10','Coconut pond','Indian','https://coconutpond.com','https://press.atairbnb.com/app/uploads/2017/09/Airbnb-Restaurant-Reservations-Kin-Khao.jpg');
+INSERT INTO RESTAURANT VALUES ('11','Sweet God','Ice Cream','https://sweetgod.com','https://media.oceanpark.com.hk/files/s3fs-public/TheBayviewRestaurant_052.jpg');
+INSERT INTO RESTAURANT VALUES ('12','Hello World','Fast Food','https://helloworldrestaurant.com','https://res.cloudinary.com/simpleview/image/upload/crm/macon/evm__750x5370-7eee3ae45056a36_7eee3df2-5056-a36a-0aa5441ae6c02b84.jpg');
 
 INSERT INTO LOCATION VALUES ('1','18-01-2016','Ziad El Khachab','(613) 241-3456.','278 Dalhousie Street','8:00','22:00','1');
 INSERT INTO LOCATION VALUES ('2','20-04-2000','John Malone','(613) 890-2234.','900 York Street','8:00','17:00','2');
